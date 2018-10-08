@@ -1,14 +1,19 @@
 /* //  --------CSS--------
 
 //   add styling to the game. this will be the last step so we can have a functioning game first. */
-
+body {
+    max-width: 400px;
+    margin: auto;
+}
 .header {
-    
     padding: 9px;
     border: 1px solid black;
     width: 500px;
     text-align: center;
-    margin:auto
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
 
 }
 .instructions {
@@ -18,11 +23,13 @@
     width: 500px;
     text-align: center;
     margin: auto;
+    margin-bottom: 10px;
 }
 
 .jewelsClass {
     width: 500px;
     margin: auto;
+    margin-bottom: 10px;
     
 }
 
@@ -32,16 +39,24 @@ img {
     margin: 4px;
     margin-bottom: 10px;
     text-align: center; 
-    margin
+    
 }
 
 .winningContainer {
     width: 500px;
     text-align:center;
     padding: 9px;
+    padding-bottom: 80px;
     border: 1px solid black;
-    margin: 10px;
     margin: auto;
+    margin-bottom: 10px;
+
+}
+
+#winningNumber{
+    padding-top: 10px;
+    
+    font-size: 40px;
 
 }
 
@@ -50,8 +65,8 @@ img {
     text-align:center;
     padding: 9px;
     border: 1px solid black;
-    margin: 10px;
     margin: auto;
+    margin-bottom: 10px;
     
 
 }
@@ -60,9 +75,9 @@ img {
     width: 500px;
     text-align:center;
     padding: 9px;
-    margin-left: 10px;
     border: 1px solid black; 
-    margin: auto;   
+    margin: auto;  
+    margin-bottom: 10px; 
     clear: both;
 }
 
