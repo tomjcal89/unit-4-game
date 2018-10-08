@@ -11,15 +11,52 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Jewel Game</title>
+    <title>Match That Number!</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-<!-- Create Header for game -->
-<h1></h1>
-    
+    <!-- Create Header for game -->
+    <div class="header">
+        <h1>Match That Number!</h1>
+    </div>
+
+    <div class="instructions">
+        <h3 id="gameInstructions">How is the game played?</h3>
+        <p>This is how the game is played. There will be some text in this paragraph</p>
+        <p>There will be another paragraph</p>
+        <p>And there will probably one last paragraph on the screen to show how the game is played.</p>
+    </div>
+
+    <div id="winningNumber"></div>
+
+    <div class="winLoss">
+        <div id="wins"></div>
+        <div id="losses"></div>
+    </div>
+
+    <div class="jewels">
+        <div id="jewel1"></div>
+        <div id="jewel2"></div>
+        <div id="jewel3"></div>
+        <div id="jewel4"></div>
+    </div>
+
+    <div class="yourScore">
+        <p>Your total Score is: </p>
+        <div id="totalScore"></div>
+
+    </div>
+
+
+    <script src="assets/javascript/game.js"></script>
+
 </body>
+
 </html>
