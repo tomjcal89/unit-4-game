@@ -25,6 +25,13 @@ $(document).ready(function () {
     $("#lossesId").text("Losses: " + 0);
 
     // each jewel will need to store a different random number in it. the random jewel number will generate inbetween 1 and 12
+    
+    $(jewel1, jewel2, jewel3, jewel4).on("click", function () {
+
+        
+
+    });
+    
     jewel1 = 1 + Math.floor(Math.random() * 12);
     jewel2 = 1 + Math.floor(Math.random() * 12);
     jewel3 = 1 + Math.floor(Math.random() * 12);
@@ -37,7 +44,7 @@ $(document).ready(function () {
     // ------------------------------------------------------------------//
 
     //when someone clicks on the random jewel, the number will be populated in the total score div. (if there is already a number in the "total score", then the new number will be added to the "total score".)
-    $
+    
 
     // if the "total score" goes beyong the "Winning Number", then the player loses and losses will go up by 1, "winning number" will generate a new random number inbetween 19-120, the "total score" will be set back to 0, and the jewels will all reset to new random numbers inbetween 1-12.
 
