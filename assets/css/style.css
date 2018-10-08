@@ -1,3 +1,13 @@
 /* //  --------CSS--------
 
 //   add styling to the game. this will be the last step so we can have a functioning game first. */
+
+img {
+    float:left;
+    margin: 4px;
+}
+
+.yourScoreClass {
+    width: 100%
+   
+}
