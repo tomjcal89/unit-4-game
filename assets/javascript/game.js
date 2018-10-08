@@ -13,19 +13,29 @@ $(document).ready(function () {
     var jewel2 = "";
     var jewel3 = "";
     var jewel4 = "";
+    
 
 
     // making functions for the Winning number and the jewels to calcualte random numbers
-
-    function randomNumberGenerator() {
+    function randomNumberGeneratorWinning () {
         winningNumber = "";
+    }
+
+    function randomNumberGeneratorJewels() {
+        
         jewel1 = "";
         jewel2 = "";
         jewel3 = "";
         jewel4 = "";
     }
 
-    $("#totalScoreID").text(totalScore);
+    $("#totalScoreId").text(totalScore);
+
+
+    $("#winsId").text("Wins: " + 0)
+    $("#lossesId").text("Losses: " + 0)
+
+        
 
 
     //    when the webpage loads, need to make a random number populate as the "Winning Number". this number generate inbetween the numbers 19 and 120
