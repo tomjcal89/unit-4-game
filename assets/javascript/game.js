@@ -1,6 +1,29 @@
  //  ---------java script---------
 
+ //   need to establish variables
+
+ var wins = 0;
+ var losses = 0;
+ var winningNumber = "";
+ var totalScore = 0;
+ var jewel1 = "";
+ var jewel2 = "";
+ var jewel3 = "";
+ var jewel4 = "";
+
+
+ // making functions for the Winning number and the jewels to calcualte random numbers
+
+ function randomNumberGenerator (){
+     winningNumber = "";
+     jewel1 = "";
+     jewel2 = "";
+     jewel3 = "";
+     jewel4 = "";
+ }
+
  //    when the webpage loads, need to make a random number populate as the "Winning Number". this number generate inbetween the numbers 19 and 120
+
  
 
  //when page loads, wins/losses and "total score" will all be set to 0
