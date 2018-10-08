@@ -13,8 +13,6 @@ $(document).ready(function () {
     var jewel2 = "";
     var jewel3 = "";
     var jewel4 = "";
-    
-
 
     // making functions for the Winning number and the jewels to calcualte random numbers
     function randomNumberGeneratorWinning () {
@@ -30,16 +28,11 @@ $(document).ready(function () {
     }
 
     $("#totalScoreId").text(totalScore);
-
-
     $("#winsId").text("Wins: " + 0)
     $("#lossesId").text("Losses: " + 0)
 
-        
-
-
     //    when the webpage loads, need to make a random number populate as the "Winning Number". this number generate inbetween the numbers 19 and 120
-
+    
 
 
     //when page loads, wins/losses and "total score" will all be set to 0
