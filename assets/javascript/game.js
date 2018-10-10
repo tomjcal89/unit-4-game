@@ -2,11 +2,8 @@
 //  ---------java script---------
 //When page loades
 
-$(document).ready(function () {
 
-    //   need to establish variables
-
-    var wins = 0;
+var wins = 0;
     var losses = 0;
     var totalScore = 0;
     var jewel1 = "";
@@ -14,6 +11,13 @@ $(document).ready(function () {
     var jewel3 = "";
     var jewel4 = "";
     var winningNumber = 19 + Math.floor(Math.random() * 101);
+
+
+$(document).ready(function () {
+
+    //   need to establish variables
+
+    
 
     // putting initial total score on screen
     $("#totalScoreId").text(totalScore);
@@ -23,13 +27,9 @@ $(document).ready(function () {
     $("#winningNumberId").text(winningNumber);
 
     //when page loads, wins/losses and "total score" will all be set to 0
-
-    function winUpdate() {
-        $("#winsId").text("Wins: " + wins);
-    }
-    function lossUpdate() {
-        $("#lossesId").text("Losses: " + losses);
-    }
+    $("#winsId").text("Wins: " + wins);
+     $("#lossesId").text("Losses: " + losses);
+    
 
 
 
@@ -73,28 +73,30 @@ $(document).ready(function () {
             $("#totalScoreId").text(totalScore);
         }
     });
+    console.log(jewel1)
+    console.log(jewel2)
+    console.log(jewel3)
+    console.log(jewel4)
+
+   
 
 
     // calling out the functions for winning and lossing
-    winUpdate()
-    lossUpdate()
+    
 
 
     // if the "total score" goes beyong the "Winning Number", then the player loses and losses will go up by 1, "winning number" will generate a new random number inbetween 19-120, the "total score" will be set back to 0, and the jewels will all reset to new random numbers inbetween 1-12.
+   
 
-
-    if (winningNumber === totalScore) {
-        wins++;
-        winUpdate()
+    if (winningNumber === totalScore) {         
+    
 
     }
 
     if (winningNumber < totalScore) {
-        losses++;
-        lossUpdate()
+        
 
     }
-
 
     //if the "total score" matches the "winning number",  then the player wins and win's will go up by 1, "winning number" will generate a new random number inbetween 19-120, the "total score" will be set back to 0, and the jewels will all reset to new random numbers inbetween 1-12.
 
