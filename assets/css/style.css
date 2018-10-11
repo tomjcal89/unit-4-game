@@ -2,7 +2,7 @@
 
 //   add styling to the game. this will be the last step so we can have a functioning game first. */
 html body {
-    background-image: url("../images/background.png");
+    background-image: url("../images/background.jpg");
     line-height: 150%;
     height: 100%;
     width: 100%;
@@ -32,14 +32,16 @@ html body {
 
 .jewelsClass {
     width: 500px;
+    text-align: center;
     margin: auto;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px; 
 }
 
 img {
     
-    float:left;
+    width: 100px;
+    height:100px;
+    float: left;
     margin: 4px;
     margin-bottom: 10px;
     text-align: center; 
@@ -76,12 +78,20 @@ img {
 }
 
 .yourScoreClass {
+    
     width: 500px;
+    height:  100px;
     text-align:center;
     padding: 9px;
     border: 1px solid black; 
     margin: auto;  
     margin-bottom: 10px; 
     clear: both;
+}
+
+#totalScoreId {
+
+    font-size: 40px;
+    
 }
 
