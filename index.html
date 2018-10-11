@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Match That Number!</title>
+    <title>Crystal Collector</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -13,15 +13,16 @@
 
 <body>
     <div class="header">
-        <h1>Match That Number!</h1>
+        <h1>Crystal Collector</h1>
     </div>
 
     <div class="instructions">
         <h3 id="gameInstructions">How is the game played?</h3>
         <hr>
-        <p>This is how the game is played. There will be some text in this paragraph.</p>
-        <p>There will be another paragraph.</p>
-        <p>And there will probably one last paragraph on the screen to show how the game is played.</p>
+        <p>The game will start with a random number showing. The object of the game is to get your "total score" to equal the random number provided. </p>
+        <p>To start the game, simply click on the crystals below. Each one holds a hidden random number. Each time you click on a crystal, the "total score will increase by they hidden number.</p>
+        <p>If you match the number exactly, YOU WIN! If you go over the number, you lose. Each time you win or lose, the game will reset and you will have to match a new random number, with different crystal values.</p>
+        <p id="ready">Are you ready to collect some crystals?!</p>
     </div>
 
     <div class="winningContainer"> This is the Number you need to match

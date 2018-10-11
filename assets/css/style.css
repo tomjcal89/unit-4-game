@@ -1,13 +1,16 @@
 /* //  --------CSS--------
 
 //   add styling to the game. this will be the last step so we can have a functioning game first. */
-body {
-    max-width: 400px;
-    margin: auto;
+html body {
+    background-image: url("../images/background.png");
+    line-height: 150%;
+    height: 100%;
+    width: 100%;
 }
 .header {
-    padding: 9px;
-    border: 1px solid black;
+    font-size: 50px;
+    text-decoration: underline;
+
     width: 500px;
     text-align: center;
     margin:auto;
@@ -18,11 +21,12 @@ body {
 }
 .instructions {
    
-    padding: 9px;
+    padding: 50px;
     border: 1px solid black;
     width: 500px;
     text-align: center;
     margin: auto;
+
     margin-bottom: 10px;
 }
 
