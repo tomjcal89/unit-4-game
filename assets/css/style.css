@@ -7,6 +7,7 @@ html body {
     height: 100%;
     width: 500px;
     margin: auto;
+    
 
 }
 .header {
@@ -17,12 +18,13 @@ html body {
     margin:auto;
     margin-top: 20px;
     margin-bottom: 40px;
+    padding: 50px;
+    padding-bottom: 10px;
     animation:blinkingText 5.0s infinite;
     
 }
 .instructions {
-   
-    padding: 50px;
+   padding: 20px;
     border: 1px solid black;
     width: 500px;
     text-align: center;
@@ -35,6 +37,7 @@ html body {
     text-align: center;
     margin: auto;
     margin-bottom: 10px; 
+    float: left;
 
 }
 
@@ -50,10 +53,10 @@ img {
 
 .winningContainer {
     width: 100px;
-    height: 50px;
+    height: 175px;
     text-align:center;
     padding: 9px;
-    padding-bottom: 80px;
+    float: left;
     border: 1px solid black;
     margin: auto;
     margin-bottom: 10px;
@@ -69,11 +72,14 @@ img {
 
 .winLossClass {
     width: 200px;
+    height: 175px;
     text-align:center;
     padding: 9px;
+    float: right;
     border: 1px solid black;
-    margin: auto;
-    margin-bottom: 10px;
+    
+    
+    
     
 
 }
@@ -91,10 +97,16 @@ img {
 }
 
 #totalScoreId {
-
     font-size: 40px;
+    padding-top: 20px;
+    
     
 }
+
+#winsId, #lossesId {
+    font-size: 25px;
+}
+
 
 @keyframes blinkingText{
     0%{     color: rgb(31, 29, 29);    }
