@@ -4,11 +4,10 @@
 html body {
     background-image: url("../images/background.jpg");
     line-height: 150%;
+    padding: 0;
     height: 100%;
     width: 500px;
     margin: auto;
-    
-
 }
 .header {
     font-size: 50px;
@@ -16,9 +15,8 @@ html body {
     width: 500px;
     text-align: center;
     margin:auto;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    padding: 50px;
+    padding: 20px;
+    margin-bottom: 30px;
     padding-bottom: 10px;
     animation:blinkingText 5.0s infinite;
     
@@ -33,27 +31,28 @@ html body {
 }
 
 .jewelsClass {
-    width: 500px;
-    text-align: center;
-    margin: auto;
+    width: 100%;
+    
+    display: inline-block;
     margin-bottom: 10px; 
-    float: left;
+   
 
 }
 
 img {
-    
+   
     width: 100px;
     height:100px;
     margin: 4px;
+    margin-left: 21px;
     margin-bottom: 10px;
-    float: left; 
+    float: left;
       
 }
 
 .winningContainer {
     width: 100px;
-    height: 175px;
+    height: 110px;
     text-align:center;
     padding: 9px;
     float: left;
@@ -65,27 +64,21 @@ img {
 
 #winningNumberId{
     padding-top: 10px;
-    
     font-size: 40px;
 
 }
 
 .winLossClass {
     width: 200px;
-    height: 175px;
+    height: 110px;
+    right: 0;
     text-align:center;
     padding: 9px;
     float: right;
     border: 1px solid black;
-    
-    
-    
-    
-
 }
 
 .yourScoreClass {
-    
     width: 500px;
     height:  100px;
     text-align:center;
@@ -115,15 +108,4 @@ img {
     100%{   color: green;    }
 }
 
-@media (max-width: 980px) {
 
-
-}
-
-@media (max-width: 768px) {
-
-}
-
-@media (max-width: 640px) {
-
-}
