@@ -21,7 +21,9 @@ html body {
     animation:blinkingText 5.0s infinite;
     
 }
+
 .instructions {
+
    padding: 20px;
     border: 1px solid black;
     width: 500px;
@@ -30,13 +32,14 @@ html body {
     margin-bottom: 10px;
 }
 
+h3 {
+    font-size: 25px;
+}
+
 .jewelsClass {
     width: 100%;
-    
     display: inline-block;
     margin-bottom: 10px; 
-   
-
 }
 
 img {
@@ -48,6 +51,11 @@ img {
     margin-bottom: 10px;
     float: left;
       
+}
+
+#ready {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .winningContainer {
@@ -91,9 +99,7 @@ img {
 
 #totalScoreId {
     font-size: 40px;
-    padding-top: 20px;
-    
-    
+    padding-top: 20px;   
 }
 
 #winsId, #lossesId {
