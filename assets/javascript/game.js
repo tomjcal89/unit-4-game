@@ -90,6 +90,7 @@ $(document).ready(function () {
 
         if (winningNumber === totalScore) {
             wins++;
+            alert("Winner!")
             updateWins();
             resetWinning()
             resetTotal()
@@ -97,6 +98,7 @@ $(document).ready(function () {
 
         } else if (winningNumber < totalScore) {
             losses++;
+            alert("Better luck next time!")
             updateLosses();
             resetWinning()
             resetTotal()
